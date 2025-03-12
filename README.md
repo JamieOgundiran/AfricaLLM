@@ -1,4 +1,4 @@
-# README: Research Project on Low-Resource African Languages and Cultures
+# Research Project on Low-Resource African Languages and Cultures
 
 ## **Project Overview**
 This research focuses on improving culturally aligned Large Language Models (LLMs) for low-resource African languages. The goal is to develop scalable data collection methods and create benchmarks for better model evaluation.
