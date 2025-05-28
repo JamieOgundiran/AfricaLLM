@@ -108,4 +108,22 @@ def generateFintuneData(country):
                 t += 1
     print('ok!')
 
-generateFintuneData("Ethiopia")
+if __name__ == '__main__':
+    import os
+
+    data_root = 'data'
+    for country in os.listdir(data_root):
+        country_path = os.path.join(data_root, country)
+        # skip anything that isn’t a directory
+        if not os.path.isdir(country_path):
+            continue
+
+        # optional: skip any non-country folders
+        if country.lower() in {'wvq.jsonl', 'data_500_types_mini.jsonl'}:
+            continue
+
+        print(f"--- Processing {country} ---")
+        try:
+            generateFintuneData(country)
+        except Exception as e:
+            print(f"Error processing {country}: {e}")
