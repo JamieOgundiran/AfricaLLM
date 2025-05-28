@@ -4,7 +4,6 @@ import jsonlines
 
 q_list = ['27', '28', '29', '30', '31', '32', '33', '34', '35', '37', '38', '39', '40', '41', '122', '123', '124', '125', '126', '127', '128', '129', '132', '133', '134', '135', '136', '137', '138', '158', '159', '160', '161', '162', '169', '170', '196', '197', '198', '224', '225', '226', '227', '228', '229', '230', '231', '232', '233']
 
-
 def getPrompt(item, t, hasContext=False):
     #from llm_response import get_response_from_llm
     content = item['q_content']
@@ -30,17 +29,40 @@ def getPrompt(item, t, hasContext=False):
 
 def generateFintuneData(country): 
     ans_item = dict()
-    with codecs.open(f'data/{country}/Ethiopia.csv', encoding='utf-8-sig') as f:
-    # with codecs.open(f'data/{country}/{country}.csv', encoding='utf-8-sig') as f:
-        for row in csv.DictReader(f, skipinitialspace=True):
-            if row['B_COUNTRY'] == 'Avg':
-            # if row['B_COUNTRY'] == 'Avg_First':
-                ans_item = {'B_COUNTRY': row['B_COUNTRY'], 'B_COUNTRY_ALPHA': row['B_COUNTRY_ALPHA']}
-                for q in q_list:
-                    k = 'Q' + q
-                    ans_item[k] = int(float(row[k]))
-                print('Ans: ', ans_item)
-    f.close()
+    try:
+        with codecs.open(f'data/{country}/{country}.csv', encoding='utf-8-sig') as f:
+            # Read the first line to get headers
+            header_line = f.readline().strip()
+            headers = header_line.split(',')
+            
+            # Create a new reader with the headers
+            f.seek(0)  # Go back to start of file
+            reader = csv.DictReader(f, fieldnames=headers)
+            
+            print("Columns:", headers)
+            found_avg = False
+            for row in reader:
+                if row['B_COUNTRY'] == 'Avg':
+                    found_avg = True
+                    ans_item = {'B_COUNTRY': row['B_COUNTRY'], 'B_COUNTRY_ALPHA': row['B_COUNTRY_ALPHA']}
+                    for q in q_list:
+                        k = 'Q' + q
+                        try:
+                            ans_item[k] = int(float(row[k]))
+                        except (KeyError, ValueError) as e:
+                            print(f"Error processing column {k}: {str(e)}")
+                            print(f"Row data: {row}")
+                            raise
+                    print('Ans item populated:', ans_item)
+                    break  # Exit after finding the Avg row
+            
+            if not found_avg:
+                print("Warning: No 'Avg' row found in the CSV file")
+                return
+
+    except Exception as e:
+        print(f"Error reading file: {str(e)}")
+        return
 
     dir_path = f"data/{country}/Finetune"
     if os.path.exists(dir_path) == False:
@@ -51,11 +73,16 @@ def generateFintuneData(country):
             t = 0
             for item in jsonlines.Reader(f):
                 prompt = getPrompt(item, t)
-                print(item['q_id'], ' ', item['q_content'])
-                print(prompt)
-                # prompt = translate(prompt)
-                # print(prompt)
-                ans = ans_item['Q'+item['q_id']]
+                print("\n" + item['q_id'], ' ', item['q_content'] + "\n")
+                print('Q' + item['q_id'])
+                print("\n" + prompt + "\n")
+                
+                q_key = 'Q' + item['q_id']
+                if q_key not in ans_item:
+                    print(f"Warning: {q_key} not found in ans_item. Available keys: {list(ans_item.keys())}")
+                    continue
+                    
+                ans = ans_item[q_key]
                 if ans < 0:
                     ans = 0 - ans
                 new_item = {"messages": [{"role": "system", "content": f"You are an {country} chatbot that know {country} very well."}, 
