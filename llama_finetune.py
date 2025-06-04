@@ -97,7 +97,6 @@ def eval():
     result = pipe(f"<s>[INST] {prompt} [/INST]")
     print(result[0]['generated_text'])
 
-
 if __name__ == '__main__':
     fire.Fire(run)  
 
