@@ -222,13 +222,19 @@ def translateFile(language):
     print('ok!')
 
 def mergeFile():
-    lan_list = ['Arabic', 'Bengali', 'China', 'English', 'Germany', 'Korean', 'Portuguese', 'Spanish', 'Turkey']
-    model_list = ['arabic_Iraq_Jordan', 'Bengali', 'China', 'English', 'Germany', 'Korean', 'Portuguese', 'Spanish', 'Turkey']
-    with jsonlines.open(f"data/Finetune/WVQ_all.jsonl", "a") as writer:
+    lan_list = ['Ethiopia', 'Kenya', 'Nigeria', 'Morroco', 'Libya', 'Tunisia', 'Zimbabwe']
+    model_list = ['Ethiopia', 'Kenya', 'Nigeria', 'Morroco', 'Libya', 'Tunisia', 'Zimbabwe']
+    
+    # Create Finetune directory if it doesn't exist
+    finetune_dir = "data/Finetune"
+    if not os.path.exists(finetune_dir):
+        os.makedirs(finetune_dir)
+        
+    with jsonlines.open(f"data/Finetune/WVQ_llama_all.jsonl", "a") as writer:
         for i in range(len(lan_list)):
             lan = lan_list[i]
             data = model_list[i]
-            file_path = f'data/{lan}/Finetune/WVQ_{data}.jsonl'
+            file_path = f'data/{lan}/Finetune/WVQ_{data}_test3_llama.jsonl'
             with open(file_path, "r+", encoding="utf8") as f:
                 for item in jsonlines.Reader(f):
                     writer.write(item)
@@ -236,5 +242,4 @@ def mergeFile():
     print('ok!!')
 
 if __name__ == "__main__":
-    #generateFintuneData('Zimbabwe')
-    generateData4Llama('Zimbabwe')
+    mergeFile()
