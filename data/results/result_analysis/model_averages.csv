@@ -1,0 +1,6 @@
+Model,Value_Avg,Count,Stderr_Avg
+Base_mistral,0.215,455,0.0153
+Base_qwen,0.2629,455,0.0174
+Deepseek_llama,0.2229,455,0.0157
+Mistral,0.205,455,0.0143
+Qwen,0.2506,455,0.0172

@@ -1,0 +1,182 @@
+|        Tasks        |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|---------------------|------:|------|-----:|------|---|-----:|---|------|
+|afrixnli_amh_prompt_1|      1|none  |     0|acc   |↑  |0.3333|±  |0.0193|
+|                     |       |none  |     0|f1    |↑  |0.1667|±  |   N/A|
+|afrixnli_amh_prompt_2|      1|none  |     0|acc   |↑  |0.3333|±  |0.0193|
+|                     |       |none  |     0|f1    |↑  |0.1667|±  |   N/A|
+|afrixnli_amh_prompt_3|      1|none  |     0|acc   |↑  |0.3233|±  |0.0191|
+|                     |       |none  |     0|f1    |↑  |0.2348|±  |   N/A|
+|afrixnli_amh_prompt_4|      1|none  |     0|acc   |↑  |0.3100|±  |0.0189|
+|                     |       |none  |     0|f1    |↑  |0.2757|±  |   N/A|
+|afrixnli_amh_prompt_5|      1|none  |     0|acc   |↑  |0.3450|±  |0.0194|
+|                     |       |none  |     0|f1    |↑  |0.1972|±  |   N/A|
+|afrixnli_eng_prompt_1|      1|none  |     0|acc   |↑  |0.3333|±  |0.0193|
+|                     |       |none  |     0|f1    |↑  |0.1667|±  |   N/A|
+|afrixnli_eng_prompt_2|      1|none  |     0|acc   |↑  |0.5000|±  |0.0204|
+|                     |       |none  |     0|f1    |↑  |0.4091|±  |   N/A|
+|afrixnli_eng_prompt_3|      1|none  |     0|acc   |↑  |0.4600|±  |0.0204|
+|                     |       |none  |     0|f1    |↑  |0.3659|±  |   N/A|
+|afrixnli_eng_prompt_4|      1|none  |     0|acc   |↑  |0.4567|±  |0.0204|
+|                     |       |none  |     0|f1    |↑  |0.3741|±  |   N/A|
+|afrixnli_eng_prompt_5|      1|none  |     0|acc   |↑  |0.3683|±  |0.0197|
+|                     |       |none  |     0|f1    |↑  |0.2562|±  |   N/A|
+|afrixnli_ewe_prompt_1|      1|none  |     0|acc   |↑  |0.3333|±  |0.0193|
+|                     |       |none  |     0|f1    |↑  |0.1667|±  |   N/A|
+|afrixnli_ewe_prompt_2|      1|none  |     0|acc   |↑  |0.3567|±  |0.0196|
+|                     |       |none  |     0|f1    |↑  |0.2470|±  |   N/A|
+|afrixnli_ewe_prompt_3|      1|none  |     0|acc   |↑  |0.3217|±  |0.0191|
+|                     |       |none  |     0|f1    |↑  |0.3054|±  |   N/A|
+|afrixnli_ewe_prompt_4|      1|none  |     0|acc   |↑  |0.3467|±  |0.0194|
+|                     |       |none  |     0|f1    |↑  |0.3302|±  |   N/A|
+|afrixnli_ewe_prompt_5|      1|none  |     0|acc   |↑  |0.3583|±  |0.0196|
+|                     |       |none  |     0|f1    |↑  |0.2868|±  |   N/A|
+|afrixnli_fra_prompt_1|      1|none  |     0|acc   |↑  |0.3333|±  |0.0193|
+|                     |       |none  |     0|f1    |↑  |0.1667|±  |   N/A|
+|afrixnli_fra_prompt_2|      1|none  |     0|acc   |↑  |0.4533|±  |0.0203|
+|                     |       |none  |     0|f1    |↑  |0.3637|±  |   N/A|
+|afrixnli_fra_prompt_3|      1|none  |     0|acc   |↑  |0.4133|±  |0.0201|
+|                     |       |none  |     0|f1    |↑  |0.3295|±  |   N/A|
+|afrixnli_fra_prompt_4|      1|none  |     0|acc   |↑  |0.3933|±  |0.0200|
+|                     |       |none  |     0|f1    |↑  |0.3186|±  |   N/A|
+|afrixnli_fra_prompt_5|      1|none  |     0|acc   |↑  |0.3967|±  |0.0200|
+|                     |       |none  |     0|f1    |↑  |0.3388|±  |   N/A|
+|afrixnli_hau_prompt_1|      1|none  |     0|acc   |↑  |0.3333|±  |0.0193|
+|                     |       |none  |     0|f1    |↑  |0.1667|±  |   N/A|
+|afrixnli_hau_prompt_2|      1|none  |     0|acc   |↑  |0.3450|±  |0.0194|
+|                     |       |none  |     0|f1    |↑  |0.2642|±  |   N/A|
+|afrixnli_hau_prompt_3|      1|none  |     0|acc   |↑  |0.3500|±  |0.0195|
+|                     |       |none  |     0|f1    |↑  |0.3289|±  |   N/A|
+|afrixnli_hau_prompt_4|      1|none  |     0|acc   |↑  |0.3700|±  |0.0197|
+|                     |       |none  |     0|f1    |↑  |0.3412|±  |   N/A|
+|afrixnli_hau_prompt_5|      1|none  |     0|acc   |↑  |0.3767|±  |0.0198|
+|                     |       |none  |     0|f1    |↑  |0.3145|±  |   N/A|
+|afrixnli_ibo_prompt_1|      1|none  |     0|acc   |↑  |0.3333|±  |0.0193|
+|                     |       |none  |     0|f1    |↑  |0.1667|±  |   N/A|
+|afrixnli_ibo_prompt_2|      1|none  |     0|acc   |↑  |0.3733|±  |0.0198|
+|                     |       |none  |     0|f1    |↑  |0.2822|±  |   N/A|
+|afrixnli_ibo_prompt_3|      1|none  |     0|acc   |↑  |0.3400|±  |0.0194|
+|                     |       |none  |     0|f1    |↑  |0.2528|±  |   N/A|
+|afrixnli_ibo_prompt_4|      1|none  |     0|acc   |↑  |0.3467|±  |0.0194|
+|                     |       |none  |     0|f1    |↑  |0.2820|±  |   N/A|
+|afrixnli_ibo_prompt_5|      1|none  |     0|acc   |↑  |0.3467|±  |0.0194|
+|                     |       |none  |     0|f1    |↑  |0.2147|±  |   N/A|
+|afrixnli_kin_prompt_1|      1|none  |     0|acc   |↑  |0.3333|±  |0.0193|
+|                     |       |none  |     0|f1    |↑  |0.1667|±  |   N/A|
+|afrixnli_kin_prompt_2|      1|none  |     0|acc   |↑  |0.3317|±  |0.0192|
+|                     |       |none  |     0|f1    |↑  |0.1938|±  |   N/A|
+|afrixnli_kin_prompt_3|      1|none  |     0|acc   |↑  |0.3483|±  |0.0195|
+|                     |       |none  |     0|f1    |↑  |0.2935|±  |   N/A|
+|afrixnli_kin_prompt_4|      1|none  |     0|acc   |↑  |0.3433|±  |0.0194|
+|                     |       |none  |     0|f1    |↑  |0.3052|±  |   N/A|
+|afrixnli_kin_prompt_5|      1|none  |     0|acc   |↑  |0.3200|±  |0.0191|
+|                     |       |none  |     0|f1    |↑  |0.2833|±  |   N/A|
+|afrixnli_lin_prompt_1|      1|none  |     0|acc   |↑  |0.3333|±  |0.0193|
+|                     |       |none  |     0|f1    |↑  |0.1667|±  |   N/A|
+|afrixnli_lin_prompt_2|      1|none  |     0|acc   |↑  |0.3433|±  |0.0194|
+|                     |       |none  |     0|f1    |↑  |0.2711|±  |   N/A|
+|afrixnli_lin_prompt_3|      1|none  |     0|acc   |↑  |0.3550|±  |0.0196|
+|                     |       |none  |     0|f1    |↑  |0.3168|±  |   N/A|
+|afrixnli_lin_prompt_4|      1|none  |     0|acc   |↑  |0.3333|±  |0.0193|
+|                     |       |none  |     0|f1    |↑  |0.2922|±  |   N/A|
+|afrixnli_lin_prompt_5|      1|none  |     0|acc   |↑  |0.3200|±  |0.0191|
+|                     |       |none  |     0|f1    |↑  |0.2736|±  |   N/A|
+|afrixnli_lug_prompt_1|      1|none  |     0|acc   |↑  |0.3333|±  |0.0193|
+|                     |       |none  |     0|f1    |↑  |0.1667|±  |   N/A|
+|afrixnli_lug_prompt_2|      1|none  |     0|acc   |↑  |0.3300|±  |0.0192|
+|                     |       |none  |     0|f1    |↑  |0.2188|±  |   N/A|
+|afrixnli_lug_prompt_3|      1|none  |     0|acc   |↑  |0.3467|±  |0.0194|
+|                     |       |none  |     0|f1    |↑  |0.2787|±  |   N/A|
+|afrixnli_lug_prompt_4|      1|none  |     0|acc   |↑  |0.3200|±  |0.0191|
+|                     |       |none  |     0|f1    |↑  |0.2587|±  |   N/A|
+|afrixnli_lug_prompt_5|      1|none  |     0|acc   |↑  |0.3433|±  |0.0194|
+|                     |       |none  |     0|f1    |↑  |0.2007|±  |   N/A|
+|afrixnli_orm_prompt_1|      1|none  |     0|acc   |↑  |0.3333|±  |0.0193|
+|                     |       |none  |     0|f1    |↑  |0.1667|±  |   N/A|
+|afrixnli_orm_prompt_2|      1|none  |     0|acc   |↑  |0.3450|±  |0.0194|
+|                     |       |none  |     0|f1    |↑  |0.2533|±  |   N/A|
+|afrixnli_orm_prompt_3|      1|none  |     0|acc   |↑  |0.3233|±  |0.0191|
+|                     |       |none  |     0|f1    |↑  |0.2659|±  |   N/A|
+|afrixnli_orm_prompt_4|      1|none  |     0|acc   |↑  |0.3217|±  |0.0191|
+|                     |       |none  |     0|f1    |↑  |0.2526|±  |   N/A|
+|afrixnli_orm_prompt_5|      1|none  |     0|acc   |↑  |0.3617|±  |0.0196|
+|                     |       |none  |     0|f1    |↑  |0.2630|±  |   N/A|
+|afrixnli_sna_prompt_1|      1|none  |     0|acc   |↑  |0.3333|±  |0.0193|
+|                     |       |none  |     0|f1    |↑  |0.1667|±  |   N/A|
+|afrixnli_sna_prompt_2|      1|none  |     0|acc   |↑  |0.3300|±  |0.0192|
+|                     |       |none  |     0|f1    |↑  |0.2174|±  |   N/A|
+|afrixnli_sna_prompt_3|      1|none  |     0|acc   |↑  |0.3467|±  |0.0194|
+|                     |       |none  |     0|f1    |↑  |0.3007|±  |   N/A|
+|afrixnli_sna_prompt_4|      1|none  |     0|acc   |↑  |0.3300|±  |0.0192|
+|                     |       |none  |     0|f1    |↑  |0.2692|±  |   N/A|
+|afrixnli_sna_prompt_5|      1|none  |     0|acc   |↑  |0.3350|±  |0.0193|
+|                     |       |none  |     0|f1    |↑  |0.2310|±  |   N/A|
+|afrixnli_sot_prompt_1|      1|none  |     0|acc   |↑  |0.3333|±  |0.0193|
+|                     |       |none  |     0|f1    |↑  |0.1667|±  |   N/A|
+|afrixnli_sot_prompt_2|      1|none  |     0|acc   |↑  |0.3450|±  |0.0194|
+|                     |       |none  |     0|f1    |↑  |0.2995|±  |   N/A|
+|afrixnli_sot_prompt_3|      1|none  |     0|acc   |↑  |0.3350|±  |0.0193|
+|                     |       |none  |     0|f1    |↑  |0.2746|±  |   N/A|
+|afrixnli_sot_prompt_4|      1|none  |     0|acc   |↑  |0.3350|±  |0.0193|
+|                     |       |none  |     0|f1    |↑  |0.2731|±  |   N/A|
+|afrixnli_sot_prompt_5|      1|none  |     0|acc   |↑  |0.3400|±  |0.0194|
+|                     |       |none  |     0|f1    |↑  |0.2159|±  |   N/A|
+|afrixnli_swa_prompt_1|      1|none  |     0|acc   |↑  |0.3333|±  |0.0193|
+|                     |       |none  |     0|f1    |↑  |0.1667|±  |   N/A|
+|afrixnli_swa_prompt_2|      1|none  |     0|acc   |↑  |0.3333|±  |0.0193|
+|                     |       |none  |     0|f1    |↑  |0.2124|±  |   N/A|
+|afrixnli_swa_prompt_3|      1|none  |     0|acc   |↑  |0.3483|±  |0.0195|
+|                     |       |none  |     0|f1    |↑  |0.2835|±  |   N/A|
+|afrixnli_swa_prompt_4|      1|none  |     0|acc   |↑  |0.3550|±  |0.0196|
+|                     |       |none  |     0|f1    |↑  |0.2859|±  |   N/A|
+|afrixnli_swa_prompt_5|      1|none  |     0|acc   |↑  |0.3583|±  |0.0196|
+|                     |       |none  |     0|f1    |↑  |0.2601|±  |   N/A|
+|afrixnli_twi_prompt_1|      1|none  |     0|acc   |↑  |0.3333|±  |0.0193|
+|                     |       |none  |     0|f1    |↑  |0.1667|±  |   N/A|
+|afrixnli_twi_prompt_2|      1|none  |     0|acc   |↑  |0.3350|±  |0.0193|
+|                     |       |none  |     0|f1    |↑  |0.2225|±  |   N/A|
+|afrixnli_twi_prompt_3|      1|none  |     0|acc   |↑  |0.3217|±  |0.0191|
+|                     |       |none  |     0|f1    |↑  |0.3130|±  |   N/A|
+|afrixnli_twi_prompt_4|      1|none  |     0|acc   |↑  |0.3150|±  |0.0190|
+|                     |       |none  |     0|f1    |↑  |0.3051|±  |   N/A|
+|afrixnli_twi_prompt_5|      1|none  |     0|acc   |↑  |0.3733|±  |0.0198|
+|                     |       |none  |     0|f1    |↑  |0.3083|±  |   N/A|
+|afrixnli_wol_prompt_1|      1|none  |     0|acc   |↑  |0.3333|±  |0.0193|
+|                     |       |none  |     0|f1    |↑  |0.1667|±  |   N/A|
+|afrixnli_wol_prompt_2|      1|none  |     0|acc   |↑  |0.3417|±  |0.0194|
+|                     |       |none  |     0|f1    |↑  |0.2968|±  |   N/A|
+|afrixnli_wol_prompt_3|      1|none  |     0|acc   |↑  |0.3433|±  |0.0194|
+|                     |       |none  |     0|f1    |↑  |0.3197|±  |   N/A|
+|afrixnli_wol_prompt_4|      1|none  |     0|acc   |↑  |0.3283|±  |0.0192|
+|                     |       |none  |     0|f1    |↑  |0.3078|±  |   N/A|
+|afrixnli_wol_prompt_5|      1|none  |     0|acc   |↑  |0.3083|±  |0.0189|
+|                     |       |none  |     0|f1    |↑  |0.2570|±  |   N/A|
+|afrixnli_xho_prompt_1|      1|none  |     0|acc   |↑  |0.3333|±  |0.0193|
+|                     |       |none  |     0|f1    |↑  |0.1667|±  |   N/A|
+|afrixnli_xho_prompt_2|      1|none  |     0|acc   |↑  |0.3500|±  |0.0195|
+|                     |       |none  |     0|f1    |↑  |0.2588|±  |   N/A|
+|afrixnli_xho_prompt_3|      1|none  |     0|acc   |↑  |0.3300|±  |0.0192|
+|                     |       |none  |     0|f1    |↑  |0.2870|±  |   N/A|
+|afrixnli_xho_prompt_4|      1|none  |     0|acc   |↑  |0.3233|±  |0.0191|
+|                     |       |none  |     0|f1    |↑  |0.2798|±  |   N/A|
+|afrixnli_xho_prompt_5|      1|none  |     0|acc   |↑  |0.3500|±  |0.0195|
+|                     |       |none  |     0|f1    |↑  |0.2669|±  |   N/A|
+|afrixnli_yor_prompt_1|      1|none  |     0|acc   |↑  |0.3333|±  |0.0193|
+|                     |       |none  |     0|f1    |↑  |0.1667|±  |   N/A|
+|afrixnli_yor_prompt_2|      1|none  |     0|acc   |↑  |0.3883|±  |0.0199|
+|                     |       |none  |     0|f1    |↑  |0.3185|±  |   N/A|
+|afrixnli_yor_prompt_3|      1|none  |     0|acc   |↑  |0.3283|±  |0.0192|
+|                     |       |none  |     0|f1    |↑  |0.2984|±  |   N/A|
+|afrixnli_yor_prompt_4|      1|none  |     0|acc   |↑  |0.3433|±  |0.0194|
+|                     |       |none  |     0|f1    |↑  |0.2874|±  |   N/A|
+|afrixnli_yor_prompt_5|      1|none  |     0|acc   |↑  |0.3433|±  |0.0194|
+|                     |       |none  |     0|f1    |↑  |0.2384|±  |   N/A|
+|afrixnli_zul_prompt_1|      1|none  |     0|acc   |↑  |0.3333|±  |0.0193|
+|                     |       |none  |     0|f1    |↑  |0.1667|±  |   N/A|
+|afrixnli_zul_prompt_2|      1|none  |     0|acc   |↑  |0.3300|±  |0.0192|
+|                     |       |none  |     0|f1    |↑  |0.2322|±  |   N/A|
+|afrixnli_zul_prompt_3|      1|none  |     0|acc   |↑  |0.3300|±  |0.0192|
+|                     |       |none  |     0|f1    |↑  |0.2669|±  |   N/A|
+|afrixnli_zul_prompt_4|      1|none  |     0|acc   |↑  |0.3333|±  |0.0193|
+|                     |       |none  |     0|f1    |↑  |0.2760|±  |   N/A|
+|afrixnli_zul_prompt_5|      1|none  |     0|acc   |↑  |0.3317|±  |0.0192|
+|                     |       |none  |     0|f1    |↑  |0.2608|±  |   N/A|
