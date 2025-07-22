@@ -156,42 +156,6 @@ The project currently supports 19 African languages:
 | Yoruba | yor | Nigeria | WVS Wave 7 |
 | Zulu | zul | South Africa | WVS Wave 6 |
 
-## Results
-
-### Model Performance
-
-The project evaluates models on multiple benchmarks:
-
-**Language-wise Performance (Average Values):**
-- English: 0.4375 (baseline)
-- Swahili: 0.2788
-- Amharic: 0.2618
-- Other African languages: 0.0216-0.2521
-
-**Model Comparison:**
-- Base Qwen: 0.2629 average performance
-- Fine-tuned Qwen (0.2): 0.2472 average performance
-
-**Task Performance:**
-- AfriMMLU: 0.3315 (base) vs 0.2982 (fine-tuned)
-- AfriXNLI: 0.3037 (base) vs 0.2968 (fine-tuned)
-- AfriMGSM: 0.0558 (base) vs 0.0565 (fine-tuned)
-
-### Key Findings
-
-1. **Cultural Alignment**: Fine-tuned models show improved performance on African language tasks
-2. **Data Efficiency**: Effective fine-tuning with limited WVS data samples
-3. **Language Coverage**: Comprehensive support for 19 African languages
-4. **Benchmark Performance**: Competitive results on African language benchmarks
-
-## Contributing
-
-This is a research project. For contributions or questions, please:
-
-1. Review the existing codebase and documentation
-2. Follow the established data preprocessing and fine-tuning pipelines
-3. Ensure compatibility with the existing evaluation framework
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
