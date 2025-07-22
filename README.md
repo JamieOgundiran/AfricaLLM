@@ -25,43 +25,38 @@ The project addresses the challenge of cultural bias in LLMs due to the dominanc
 
 ## Requirements
 
-```bash
-pip install click datasets dotenv ipykernel jsonlines nltk numpy openai pandas scikit-learn torch transformers
-```
 
-Or install using the project's dependency management:
+Install using the project's dependency management:
 
 ```bash
 # Using uv (recommended)
 uv sync
 
-# Or using pip
-pip install -r requirements.txt
 ```
 
 ## Project Structure
 
 ```
 AfricaLLM/
-├── data/                          # Processed datasets for fine-tuning
-│   ├── _Finetune_/               # Combined fine-tuning data
-│   ├── [Language]/               # Language-specific directories
-│   │   ├── Finetune/            # Fine-tuning datasets
-│   │   └── WVQ_[Language].csv   # Processed WVS data
-│   ├── WVQ.jsonl                # Original WVS data
-│   ├── WVQ6.jsonl               # WVS Wave 6 data
-│   ├── new_WVQ.jsonl            # Augmented training data
-│   └── new_WVQ6.jsonl           # Augmented Wave 6 data
-├── WVS_original_dataset/         # Raw WVS datasets
-├── results/                      # Experiment results
-│   ├── result_raw/              # Raw evaluation results
-│   ├── result_cleaned/          # Processed results
-│   └── result_analysis/         # Analysis outputs
-├── data_preprocees.ipynb        # Data preprocessing pipeline
-├── finetune.ipynb               # Model fine-tuning notebook
-├── result_analysis.py           # Results analysis script
-├── clean_raw_results.py         # Results cleaning utility
-└── results.ipynb                # Results visualization
+├── data/                          
+│   ├── _Finetune_/               
+│   ├── [Language]/               
+│   │   ├── Finetune/            
+│   │   └── WVQ_[Language].csv   
+│   ├── WVQ.jsonl                
+│   ├── WVQ6.jsonl               
+│   ├── new_WVQ.jsonl            
+│   └── new_WVQ6.jsonl           
+├── WVS_original_dataset/        
+├── results/                     
+│   ├── result_raw/              
+│   ├── result_cleaned/          
+│   └── result_analysis/         
+├── data_preprocees.ipynb        
+├── finetune.ipynb               
+├── result_analysis.py           
+├── clean_raw_results.py         
+└── results.ipynb                
 ```
 
 ## Usage
