@@ -1,0 +1,7 @@
+Task,Value_Avg,Count,Stderr_Avg
+afrimgsm_base_qwen,0.0558,95,0.0123
+afrimgsm_qwen_0.2,0.0565,95,0.0126
+afrimmlu_base_qwen,0.3315,180,0.0207
+afrimmlu_qwen_0.2,0.2982,180,0.0203
+afrixnli_base_qwen,0.3037,180,0.0194
+afrixnli_qwen_0.2,0.2968,180,0.0194
