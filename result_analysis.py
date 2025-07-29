@@ -13,7 +13,7 @@ def extract_language(task_name):
 
 def load_and_process_data():
     """Load all result files and process them"""
-    results_dir = Path('data3/results/result_cleaned')
+    results_dir = Path('results/result_cleaned')
     all_data = []
     
     # Process each model directory

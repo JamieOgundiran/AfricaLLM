@@ -1,0 +1,92 @@
+|       Tasks       |Version|     Filter      |n-shot|  Metric   |   |Value |   |Stderr|
+|-------------------|------:|-----------------|-----:|-----------|---|-----:|---|------|
+|afriqa_bem_prompt_1|      1|remove_whitespace|     0|exact_match|↑  |0.1266|±  |0.0190|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.2026|±  |   N/A|
+|afriqa_bem_prompt_2|      1|remove_whitespace|     0|exact_match|↑  |0.1071|±  |0.0177|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.1746|±  |   N/A|
+|afriqa_bem_prompt_3|      1|remove_whitespace|     0|exact_match|↑  |0.0227|±  |0.0085|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.1346|±  |   N/A|
+|afriqa_bem_prompt_4|      1|remove_whitespace|     0|exact_match|↑  |0.0844|±  |0.0159|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.1856|±  |   N/A|
+|afriqa_bem_prompt_5|      1|remove_whitespace|     0|exact_match|↑  |0.1006|±  |0.0172|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.2060|±  |   N/A|
+|afriqa_fon_prompt_1|      1|remove_whitespace|     0|exact_match|↑  |0.1062|±  |0.0157|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.1886|±  |   N/A|
+|afriqa_fon_prompt_2|      1|remove_whitespace|     0|exact_match|↑  |0.0984|±  |0.0152|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.1648|±  |   N/A|
+|afriqa_fon_prompt_3|      1|remove_whitespace|     0|exact_match|↑  |0.0130|±  |0.0058|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.1617|±  |   N/A|
+|afriqa_fon_prompt_4|      1|remove_whitespace|     0|exact_match|↑  |0.1088|±  |0.0159|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.2242|±  |   N/A|
+|afriqa_fon_prompt_5|      1|remove_whitespace|     0|exact_match|↑  |0.1036|±  |0.0155|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.1992|±  |   N/A|
+|afriqa_hau_prompt_1|      1|remove_whitespace|     0|exact_match|↑  |0.0533|±  |0.0130|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.1092|±  |   N/A|
+|afriqa_hau_prompt_2|      1|remove_whitespace|     0|exact_match|↑  |0.0767|±  |0.0154|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.1224|±  |   N/A|
+|afriqa_hau_prompt_3|      1|remove_whitespace|     0|exact_match|↑  |0.0067|±  |0.0047|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.0898|±  |   N/A|
+|afriqa_hau_prompt_4|      1|remove_whitespace|     0|exact_match|↑  |0.0433|±  |0.0118|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.1145|±  |   N/A|
+|afriqa_hau_prompt_5|      1|remove_whitespace|     0|exact_match|↑  |0.0833|±  |0.0160|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.1443|±  |   N/A|
+|afriqa_ibo_prompt_1|      1|remove_whitespace|     0|exact_match|↑  |0.1540|±  |0.0179|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.2357|±  |   N/A|
+|afriqa_ibo_prompt_2|      1|remove_whitespace|     0|exact_match|↑  |0.1491|±  |0.0176|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.2279|±  |   N/A|
+|afriqa_ibo_prompt_3|      1|remove_whitespace|     0|exact_match|↑  |0.0342|±  |0.0090|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.1674|±  |   N/A|
+|afriqa_ibo_prompt_4|      1|remove_whitespace|     0|exact_match|↑  |0.1320|±  |0.0168|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.2386|±  |   N/A|
+|afriqa_ibo_prompt_5|      1|remove_whitespace|     0|exact_match|↑  |0.1491|±  |0.0176|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.2547|±  |   N/A|
+|afriqa_kin_prompt_1|      1|remove_whitespace|     0|exact_match|↑  |0.1536|±  |0.0194|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.2599|±  |   N/A|
+|afriqa_kin_prompt_2|      1|remove_whitespace|     0|exact_match|↑  |0.1623|±  |0.0199|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.2662|±  |   N/A|
+|afriqa_kin_prompt_3|      1|remove_whitespace|     0|exact_match|↑  |0.0812|±  |0.0147|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.2037|±  |   N/A|
+|afriqa_kin_prompt_4|      1|remove_whitespace|     0|exact_match|↑  |0.1478|±  |0.0191|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.2819|±  |   N/A|
+|afriqa_kin_prompt_5|      1|remove_whitespace|     0|exact_match|↑  |0.1275|±  |0.0180|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.2244|±  |   N/A|
+|afriqa_swa_prompt_1|      1|remove_whitespace|     0|exact_match|↑  |0.2237|±  |0.0243|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.3465|±  |   N/A|
+|afriqa_swa_prompt_2|      1|remove_whitespace|     0|exact_match|↑  |0.2814|±  |0.0262|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.4025|±  |   N/A|
+|afriqa_swa_prompt_3|      1|remove_whitespace|     0|exact_match|↑  |0.0712|±  |0.0150|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.2457|±  |   N/A|
+|afriqa_swa_prompt_4|      1|remove_whitespace|     0|exact_match|↑  |0.2136|±  |0.0239|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.3556|±  |   N/A|
+|afriqa_swa_prompt_5|      1|remove_whitespace|     0|exact_match|↑  |0.2339|±  |0.0247|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.3606|±  |   N/A|
+|afriqa_twi_prompt_1|      1|remove_whitespace|     0|exact_match|↑  |0.0844|±  |0.0126|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.1439|±  |   N/A|
+|afriqa_twi_prompt_2|      1|remove_whitespace|     0|exact_match|↑  |0.0700|±  |0.0116|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.1569|±  |   N/A|
+|afriqa_twi_prompt_3|      1|remove_whitespace|     0|exact_match|↑  |0.0041|±  |0.0029|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.1053|±  |   N/A|
+|afriqa_twi_prompt_4|      1|remove_whitespace|     0|exact_match|↑  |0.0576|±  |0.0106|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.1352|±  |   N/A|
+|afriqa_twi_prompt_5|      1|remove_whitespace|     0|exact_match|↑  |0.0494|±  |0.0098|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.1226|±  |   N/A|
+|afriqa_yor_prompt_1|      1|remove_whitespace|     0|exact_match|↑  |0.1067|±  |0.0194|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.1604|±  |   N/A|
+|afriqa_yor_prompt_2|      1|remove_whitespace|     0|exact_match|↑  |0.0909|±  |0.0181|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.1565|±  |   N/A|
+|afriqa_yor_prompt_3|      1|remove_whitespace|     0|exact_match|↑  |0.0198|±  |0.0088|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.1018|±  |   N/A|
+|afriqa_yor_prompt_4|      1|remove_whitespace|     0|exact_match|↑  |0.0870|±  |0.0177|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.1605|±  |   N/A|
+|afriqa_yor_prompt_5|      1|remove_whitespace|     0|exact_match|↑  |0.0909|±  |0.0181|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.1759|±  |   N/A|
+|afriqa_zul_prompt_1|      1|remove_whitespace|     0|exact_match|↑  |0.1015|±  |0.0168|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.1782|±  |   N/A|
+|afriqa_zul_prompt_2|      1|remove_whitespace|     0|exact_match|↑  |0.0892|±  |0.0158|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.1702|±  |   N/A|
+|afriqa_zul_prompt_3|      1|remove_whitespace|     0|exact_match|↑  |0.0062|±  |0.0043|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.1218|±  |   N/A|
+|afriqa_zul_prompt_4|      1|remove_whitespace|     0|exact_match|↑  |0.0738|±  |0.0145|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.1814|±  |   N/A|
+|afriqa_zul_prompt_5|      1|remove_whitespace|     0|exact_match|↑  |0.1077|±  |0.0172|
+|                   |       |remove_whitespace|     0|f1         |↑  |0.2084|±  |   N/A|

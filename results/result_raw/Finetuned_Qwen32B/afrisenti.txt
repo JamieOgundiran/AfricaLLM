@@ -1,0 +1,142 @@
+        Tasks         |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|----------------------|------:|------|-----:|------|---|-----:|---|------|
+|afrisenti_amh_prompt_1|      1|none  |     0|acc   |↑  |0.4022|±  |0.0110|
+|                      |       |none  |     0|f1    |↑  |0.4555|±  |   N/A|
+|afrisenti_amh_prompt_2|      1|none  |     0|acc   |↑  |0.5658|±  |0.0111|
+|                      |       |none  |     0|f1    |↑  |0.5802|±  |   N/A|
+|afrisenti_amh_prompt_3|      1|none  |     0|acc   |↑  |0.6793|±  |0.0104|
+|                      |       |none  |     0|f1    |↑  |0.5782|±  |   N/A|
+|afrisenti_amh_prompt_4|      1|none  |     0|acc   |↑  |0.6778|±  |0.0105|
+|                      |       |none  |     0|f1    |↑  |0.6464|±  |   N/A|
+|afrisenti_amh_prompt_5|      1|none  |     0|acc   |↑  |0.6703|±  |0.0105|
+|                      |       |none  |     0|f1    |↑  |0.5856|±  |   N/A|
+|afrisenti_arq_prompt_1|      1|none  |     0|acc   |↑  |0.5386|±  |0.0161|
+|                      |       |none  |     0|f1    |↑  |0.5610|±  |   N/A|
+|afrisenti_arq_prompt_2|      1|none  |     0|acc   |↑  |0.4864|±  |0.0162|
+|                      |       |none  |     0|f1    |↑  |0.5097|±  |   N/A|
+|afrisenti_arq_prompt_3|      1|none  |     0|acc   |↑  |0.6493|±  |0.0154|
+|                      |       |none  |     0|f1    |↑  |0.6020|±  |   N/A|
+|afrisenti_arq_prompt_4|      1|none  |     0|acc   |↑  |0.6639|±  |0.0153|
+|                      |       |none  |     0|f1    |↑  |0.6548|±  |   N/A|
+|afrisenti_arq_prompt_5|      1|none  |     0|acc   |↑  |0.6514|±  |0.0154|
+|                      |       |none  |     0|f1    |↑  |0.6133|±  |   N/A|
+|afrisenti_ary_prompt_1|      1|none  |     0|acc   |↑  |0.4282|±  |0.0091|
+|                      |       |none  |     0|f1    |↑  |0.3961|±  |   N/A|
+|afrisenti_ary_prompt_2|      1|none  |     0|acc   |↑  |0.4272|±  |0.0091|
+|                      |       |none  |     0|f1    |↑  |0.3890|±  |   N/A|
+|afrisenti_ary_prompt_3|      1|none  |     0|acc   |↑  |0.5113|±  |0.0092|
+|                      |       |none  |     0|f1    |↑  |0.4352|±  |   N/A|
+|afrisenti_ary_prompt_4|      1|none  |     0|acc   |↑  |0.5181|±  |0.0092|
+|                      |       |none  |     0|f1    |↑  |0.4966|±  |   N/A|
+|afrisenti_ary_prompt_5|      1|none  |     0|acc   |↑  |0.3995|±  |0.0090|
+|                      |       |none  |     0|f1    |↑  |0.3325|±  |   N/A|
+|afrisenti_hau_prompt_1|      1|none  |     0|acc   |↑  |0.3990|±  |0.0067|
+|                      |       |none  |     0|f1    |↑  |0.3668|±  |   N/A|
+|afrisenti_hau_prompt_2|      1|none  |     0|acc   |↑  |0.3809|±  |0.0067|
+|                      |       |none  |     0|f1    |↑  |0.3423|±  |   N/A|
+|afrisenti_hau_prompt_3|      1|none  |     0|acc   |↑  |0.4614|±  |0.0068|
+|                      |       |none  |     0|f1    |↑  |0.3695|±  |   N/A|
+|afrisenti_hau_prompt_4|      1|none  |     0|acc   |↑  |0.4733|±  |0.0069|
+|                      |       |none  |     0|f1    |↑  |0.4569|±  |   N/A|
+|afrisenti_hau_prompt_5|      1|none  |     0|acc   |↑  |0.3745|±  |0.0066|
+|                      |       |none  |     0|f1    |↑  |0.2893|±  |   N/A|
+|afrisenti_ibo_prompt_1|      1|none  |     0|acc   |↑  |0.3922|±  |0.0080|
+|                      |       |none  |     0|f1    |↑  |0.3511|±  |   N/A|
+|afrisenti_ibo_prompt_2|      1|none  |     0|acc   |↑  |0.4079|±  |0.0081|
+|                      |       |none  |     0|f1    |↑  |0.3731|±  |   N/A|
+|afrisenti_ibo_prompt_3|      1|none  |     0|acc   |↑  |0.3387|±  |0.0078|
+|                      |       |none  |     0|f1    |↑  |0.2271|±  |   N/A|
+|afrisenti_ibo_prompt_4|      1|none  |     0|acc   |↑  |0.3729|±  |0.0080|
+|                      |       |none  |     0|f1    |↑  |0.3418|±  |   N/A|
+|afrisenti_ibo_prompt_5|      1|none  |     0|acc   |↑  |0.3365|±  |0.0078|
+|                      |       |none  |     0|f1    |↑  |0.2665|±  |   N/A|
+|afrisenti_kin_prompt_1|      1|none  |     0|acc   |↑  |0.4230|±  |0.0154|
+|                      |       |none  |     0|f1    |↑  |0.3963|±  |   N/A|
+|afrisenti_kin_prompt_2|      1|none  |     0|acc   |↑  |0.3967|±  |0.0153|
+|                      |       |none  |     0|f1    |↑  |0.3705|±  |   N/A|
+|afrisenti_kin_prompt_3|      1|none  |     0|acc   |↑  |0.3450|±  |0.0148|
+|                      |       |none  |     0|f1    |↑  |0.2723|±  |   N/A|
+|afrisenti_kin_prompt_4|      1|none  |     0|acc   |↑  |0.4250|±  |0.0154|
+|                      |       |none  |     0|f1    |↑  |0.3960|±  |   N/A|
+|afrisenti_kin_prompt_5|      1|none  |     0|acc   |↑  |0.3635|±  |0.0150|
+|                      |       |none  |     0|f1    |↑  |0.2902|±  |   N/A|
+|afrisenti_orm_prompt_1|      1|none  |     0|acc   |↑  |0.3454|±  |0.0104|
+|                      |       |none  |     0|f1    |↑  |0.3541|±  |   N/A|
+|afrisenti_orm_prompt_2|      1|none  |     0|acc   |↑  |0.3554|±  |0.0105|
+|                      |       |none  |     0|f1    |↑  |0.3571|±  |   N/A|
+|afrisenti_orm_prompt_3|      1|none  |     0|acc   |↑  |0.3521|±  |0.0104|
+|                      |       |none  |     0|f1    |↑  |0.2341|±  |   N/A|
+|afrisenti_orm_prompt_4|      1|none  |     0|acc   |↑  |0.3454|±  |0.0104|
+|                      |       |none  |     0|f1    |↑  |0.2983|±  |   N/A|
+|afrisenti_orm_prompt_5|      1|none  |     0|acc   |↑  |0.3416|±  |0.0104|
+|                      |       |none  |     0|f1    |↑  |0.2309|±  |   N/A|
+|afrisenti_pcm_prompt_1|      1|none  |     0|acc   |↑  |0.3233|±  |0.0073|
+|                      |       |none  |     0|f1    |↑  |0.3633|±  |   N/A|
+|afrisenti_pcm_prompt_2|      1|none  |     0|acc   |↑  |0.2058|±  |0.0063|
+|                      |       |none  |     0|f1    |↑  |0.2052|±  |   N/A|
+|afrisenti_pcm_prompt_3|      1|none  |     0|acc   |↑  |0.6921|±  |0.0072|
+|                      |       |none  |     0|f1    |↑  |0.6629|±  |   N/A|
+|afrisenti_pcm_prompt_4|      1|none  |     0|acc   |↑  |0.6700|±  |0.0073|
+|                      |       |none  |     0|f1    |↑  |0.6580|±  |   N/A|
+|afrisenti_pcm_prompt_5|      1|none  |     0|acc   |↑  |0.6526|±  |0.0074|
+|                      |       |none  |     0|f1    |↑  |0.6365|±  |   N/A|
+|afrisenti_por_prompt_1|      1|none  |     0|acc   |↑  |0.3880|±  |0.0081|
+|                      |       |none  |     0|f1    |↑  |0.3589|±  |   N/A|
+|afrisenti_por_prompt_2|      1|none  |     0|acc   |↑  |0.4274|±  |0.0082|
+|                      |       |none  |     0|f1    |↑  |0.4381|±  |   N/A|
+|afrisenti_por_prompt_3|      1|none  |     0|acc   |↑  |0.3269|±  |0.0078|
+|                      |       |none  |     0|f1    |↑  |0.2115|±  |   N/A|
+|afrisenti_por_prompt_4|      1|none  |     0|acc   |↑  |0.4088|±  |0.0081|
+|                      |       |none  |     0|f1    |↑  |0.3638|±  |   N/A|
+|afrisenti_por_prompt_5|      1|none  |     0|acc   |↑  |0.3108|±  |0.0076|
+|                      |       |none  |     0|f1    |↑  |0.1894|±  |   N/A|
+|afrisenti_swa_prompt_1|      1|none  |     0|acc   |↑  |0.5027|±  |0.0183|
+|                      |       |none  |     0|f1    |↑  |0.5090|±  |   N/A|
+|afrisenti_swa_prompt_2|      1|none  |     0|acc   |↑  |0.5508|±  |0.0182|
+|                      |       |none  |     0|f1    |↑  |0.5189|±  |   N/A|
+|afrisenti_swa_prompt_3|      1|none  |     0|acc   |↑  |0.2687|±  |0.0162|
+|                      |       |none  |     0|f1    |↑  |0.1834|±  |   N/A|
+|afrisenti_swa_prompt_4|      1|none  |     0|acc   |↑  |0.4291|±  |0.0181|
+|                      |       |none  |     0|f1    |↑  |0.4350|±  |   N/A|
+|afrisenti_swa_prompt_5|      1|none  |     0|acc   |↑  |0.2995|±  |0.0168|
+|                      |       |none  |     0|f1    |↑  |0.2241|±  |   N/A|
+|afrisenti_tir_prompt_1|      1|none  |     0|acc   |↑  |0.4140|±  |0.0110|
+|                      |       |none  |     0|f1    |↑  |0.3968|±  |   N/A|
+|afrisenti_tir_prompt_2|      1|none  |     0|acc   |↑  |0.5005|±  |0.0112|
+|                      |       |none  |     0|f1    |↑  |0.4635|±  |   N/A|
+|afrisenti_tir_prompt_3|      1|none  |     0|acc   |↑  |0.4900|±  |0.0112|
+|                      |       |none  |     0|f1    |↑  |0.3294|±  |   N/A|
+|afrisenti_tir_prompt_4|      1|none  |     0|acc   |↑  |0.5030|±  |0.0112|
+|                      |       |none  |     0|f1    |↑  |0.3726|±  |   N/A|
+|afrisenti_tir_prompt_5|      1|none  |     0|acc   |↑  |0.4940|±  |0.0112|
+|                      |       |none  |     0|f1    |↑  |0.3567|±  |   N/A|
+|afrisenti_tso_prompt_1|      1|none  |     0|acc   |↑  |0.3740|±  |0.0304|
+|                      |       |none  |     0|f1    |↑  |0.3790|±  |   N/A|
+|afrisenti_tso_prompt_2|      1|none  |     0|acc   |↑  |0.4528|±  |0.0313|
+|                      |       |none  |     0|f1    |↑  |0.4229|±  |   N/A|
+|afrisenti_tso_prompt_3|      1|none  |     0|acc   |↑  |0.5236|±  |0.0314|
+|                      |       |none  |     0|f1    |↑  |0.4918|±  |   N/A|
+|afrisenti_tso_prompt_4|      1|none  |     0|acc   |↑  |0.4370|±  |0.0312|
+|                      |       |none  |     0|f1    |↑  |0.4446|±  |   N/A|
+|afrisenti_tso_prompt_5|      1|none  |     0|acc   |↑  |0.4213|±  |0.0310|
+|                      |       |none  |     0|f1    |↑  |0.4005|±  |   N/A|
+|afrisenti_twi_prompt_1|      1|none  |     0|acc   |↑  |0.3446|±  |0.0154|
+|                      |       |none  |     0|f1    |↑  |0.3382|±  |   N/A|
+|afrisenti_twi_prompt_2|      1|none  |     0|acc   |↑  |0.4247|±  |0.0161|
+|                      |       |none  |     0|f1    |↑  |0.3993|±  |   N/A|
+|afrisenti_twi_prompt_3|      1|none  |     0|acc   |↑  |0.5132|±  |0.0162|
+|                      |       |none  |     0|f1    |↑  |0.4780|±  |   N/A|
+|afrisenti_twi_prompt_4|      1|none  |     0|acc   |↑  |0.4310|±  |0.0161|
+|                      |       |none  |     0|f1    |↑  |0.4472|±  |   N/A|
+|afrisenti_twi_prompt_5|      1|none  |     0|acc   |↑  |0.4742|±  |0.0162|
+|                      |       |none  |     0|f1    |↑  |0.4419|±  |   N/A|
+|afrisenti_yor_prompt_1|      1|none  |     0|acc   |↑  |0.4292|±  |0.0074|
+|                      |       |none  |     0|f1    |↑  |0.3978|±  |   N/A|
+|afrisenti_yor_prompt_2|      1|none  |     0|acc   |↑  |0.4390|±  |0.0074|
+|                      |       |none  |     0|f1    |↑  |0.3852|±  |   N/A|
+|afrisenti_yor_prompt_3|      1|none  |     0|acc   |↑  |0.3169|±  |0.0069|
+|                      |       |none  |     0|f1    |↑  |0.2496|±  |   N/A|
+|afrisenti_yor_prompt_4|      1|none  |     0|acc   |↑  |0.3860|±  |0.0072|
+|                      |       |none  |     0|f1    |↑  |0.3615|±  |   N/A|
+|afrisenti_yor_prompt_5|      1|none  |     0|acc   |↑  |0.3247|±  |0.0070|
+|                      |       |none  |     0|f1    |↑  |0.2756|±  |   N/A|
