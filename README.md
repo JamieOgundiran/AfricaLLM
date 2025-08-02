@@ -34,10 +34,10 @@ Our comprehensive evaluation shows significant improvements in African language 
 | Model Family | Base Performance | Finetuned Performance | Improvement |
 |--------------|-----------------|----------------------|-------------|
 | **Qwen 32B** | 0.3942 | 0.3973 | +0.78% |
-| **Gemma 27B** | 0.3894 | 0.3802 | -2.36% |
+| **Gemma 27B** | 0.3894 | 0.41785 | +5.1% |
 | **Qwen 8B** | 0.2970 | 0.3172 | +6.80% |
 | **Llama 8B** | 0.3139 | 0.2572 | -18.07% |
-| **Mistral 7B** | 0.3032 | - | - |
+| **Mistral 7B** | 0.3032 | 0.3092 | +2.2% |
 
 *Note: Results show average performance across all tasks and languages*
 
