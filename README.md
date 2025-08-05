@@ -159,6 +159,8 @@ Comprehensive evaluation on African language benchmarks:
 - **AfriSenti**: Sentiment Analysis across African languages
 - **AfriXNLI**: Cross-lingual Natural Language Inference
 
+Evaluation is done using lm-harness: https://github.com/EleutherAI/lm-evaluation-harness/tree/main/lm_eval/tasks/afrobench
+
 #### Run Analysis:
 ```python
 # Performance comparison between base and fine-tuned models
