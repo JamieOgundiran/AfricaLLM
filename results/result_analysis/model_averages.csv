@@ -6,6 +6,6 @@ Base_mistral_7B,0.3032,355,0.0161
 Base_qwen_8B,0.297,365,0.0161
 Finetuned_Qwen32B,0.3973,310,0.0165
 Finetuned_Qwen_8B,0.3172,355,0.016
-Finetuned_gemma_27B,0.3802,310,0.0163
+Finetuned_gemma_27B,0.41785,310,0.0163
 Finetuned_llama_8B,0.2572,215,0.0195
 Finetuned_mistral_7B,0.3092,355,0.0162
