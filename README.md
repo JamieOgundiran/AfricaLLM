@@ -9,6 +9,7 @@
 
 ## Overview
 **Access the models on huggingface:** https://huggingface.co/JamieOgundiran
+**Dataset is available on: ** https://huggingface.co/datasets/JamieOgundiran/AfricaLLM
 
 **AfricaLLM** is a comprehensive research project that evaluates and fine-tunes Large Language Models (LLMs) for African languages. This project addresses the significant gap in culturally-aware AI systems for African languages by:
 
